@@ -38,9 +38,9 @@
 
 👤 **Author2**
 
-- GitHub: [Maha-Magdy](https://github.com/Maha-Magdy)
-- Twitter: [@Maha_M_Abdelaal](https://twitter.com/Maha_M_Abdelaal)
-- LinkedIn: [Maha Magdy](https://www.linkedin.com/in/maha-magdy-18a8a7116/)
+- GitHub: [Amal Hersi](https://github.com/Amalcxc)
+- Twitter: [@Amalcx2](https://twitter.com/home?lang=en)
+- LinkedIn: [Amal Hersi](https://www.linkedin.com/in/amal-hersi-a29583205/)
 
 
 ## 🤝 Contributing
