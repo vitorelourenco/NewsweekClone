@@ -90,10 +90,6 @@
     display: none;
   }
 
-  /* .header-top{
-    position: relative;
-  } */
-
   #desktop-header{
     display: block;
     margin: 0;
@@ -138,6 +134,68 @@
     margin: 10px auto 0;
   }
 
+  .header-bottom{
+    position: relative;
+    padding: 15px 0px 15px 0px;
+  }
+
+  .header-bottom a{
+    color: black;
+  }
+
+  .header-bottom::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: " ";
+    display: block;
+    width: 50px;
+    border-left: 12px solid white;
+    border-top: 13px solid rgb(220, 53, 69);
+  }
+
+  .page-nav{
+    display: flex;
+    padding-right: 160px;
+    font-size:19px;
+    font-weight: bold;
+  }
+
+  .page-nav li{
+    flex-grow: 1;
+    border-left-color: #d9d9d9;
+    border-left-width: 1px;
+    border-left-style: solid;
+    text-align: center;
+    align-items: center;
+  }
+
+  .trending-topics-wrapper{
+    padding-top: 13px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 16px;
+    border-top: 1px solid #dedede;
+    border-top-width: 2px;
+  }
+
+
+  .trending-topics-wrapper ul{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .trending-topics-wrapper li{
+    padding-right: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    flex: none;
+  }
+
+  .trending-topics-wrapper a{
+    color: rgb(128, 127, 132);
+  }
 
 }
 
