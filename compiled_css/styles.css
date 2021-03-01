@@ -1,6 +1,4 @@
-
-
-.tablet-width{
+.tablet-width {
   max-width: 1310px;
 }
 
@@ -9,31 +7,28 @@
   background: none transparent;
 }
 
-
 .page-header {
-    display: none;
-  
-  }
+  display: none;
+}
 
 .brand svg {
   fill: white;
   width: 132px;
   height: 20px;
+}
 
-  }
-
- .login {
+.login {
   font-size: 0;
   background: url(https://web.archive.org/web/20210120131834im_/https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
   width: 30px;
   height: 30px;
   padding-left: 0;
-  opacity: .75;
+  opacity: 0.75;
   border: none;
 }
 
 .pelcro-subscribe-button {
-  font: bold 13px/24px "Roboto Condensed",sans-serif;
+  font: bold 13px/24px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   padding-left: 12px;
   padding-right: 12px;
@@ -45,7 +40,6 @@
 .container {
   padding-top: 13px;
   padding-bottom: 13px;
- 
 }
 
 .fa-bars {
@@ -63,19 +57,16 @@
 .page-footer li {
   margin-left: 10px;
   list-style: none;
-  
 }
 
 .page-footer ul {
   padding: 0;
-
 }
 
-.page-footer p{
+.page-footer p {
   font-size: 12px;
   margin-top: 2px;
   margin-bottom: 0;
-
 }
 
 .page-footer a {
@@ -87,65 +78,55 @@
   width: 230px;
   height: 40px;
   fill: red;
-  }
+}
 
 .genericon {
-    font-size: 24px;
-  }
+  font-size: 24px;
+}
 
-.footer-links ul{
-    flex-flow: row wrap;
-    margin-bottom: 0px;
-  }
-  
+.footer-links ul {
+  flex-flow: row wrap;
+  margin-bottom: 0;
+}
+
 .footer-links li {
   display: inline-block;
   padding-right: 20px;
   margin: 6px 0;
   cursor: pointer;
-  
-  }
+}
+
 .footer-links {
   border-top: 1px solid grey;
 }
 
- 
 .footer-links-menu li {
   margin-left: 0;
 }
 
-
-.footer-links label {
+.footer-links strong {
   margin-top: 6px;
   margin-right: 10px;
-  
 }
-
 
 @media (min-width: 988px) {
   .page-footer {
     max-width: 1320px;
   }
+
   .logo {
     display: flex;
   }
-  
-  .logo-p{
-    display:flex;
-   
-   }
 
-   .logo-p p {
-    padding-top: 20px;
-    padding-bottom: 10px;
-
-   }
-  
-
+  .logo-p {
+    display: flex;
   }
 
-
-
+  .logo-p p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}
 
 @media (min-width: 768px) {
   .login {
@@ -158,41 +139,46 @@
     font-weight: 800;
   }
 
-  .pelcro-subscribe-button{
+  .pelcro-subscribe-button {
     height: 30px;
     width: 157px;
     font-size: 18px;
     align-self: flex-start;
   }
-
 }
 
 @media (min-width: 988px) {
-  .top-buttom-wrapper{
+  .top-buttom-wrapper {
     align-items: center;
     height: 30px;
-  } 
+  }
 
-  .jc-sb{
+  .jc-sb {
     justify-content: space-between;
     align-items: flex-end;
   }
 
-  #mobile-header{
+  #mobile-header {
     display: none;
   }
 
-  #desktop-header{
+  .trending-topics-wrapper ul {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  #desktop-header {
     display: block;
     margin: 0;
     padding: 0;
-  }  
+  }
 
-  #desktop-header ul{
+  #desktop-header ul {
     list-style: none;
   }
 
-  #desktop-container{
+  #desktop-container {
     position: relative;
     max-width: 1320px;
     width: 100%;
@@ -200,13 +186,13 @@
     padding-right: 0;
   }
 
-  .header-top{
+  .header-top {
     height: 95px;
     padding: 20px 10px 15px;
     color: white;
   }
 
-  .header-top .login{
+  .header-top .login {
     font-size: 24px;
     font-weight: bold;
     opacity: 1;
@@ -214,11 +200,11 @@
     margin-right: 0;
   }
 
-  .header-top date{
-    margin-left: 20px
+  .header-top .date {
+    margin-left: 20px;
   }
 
-  .header-middle{
+  .header-middle {
     position: absolute;
     top: 0;
     left: 50%;
@@ -232,7 +218,7 @@
     margin: 10px auto 0;
   }
 
-  .search-block-form-2{
+  .search-block-form-2 {
     position: absolute;
     top: 3px;
     right: 70px;
@@ -241,34 +227,34 @@
     border: 0 none;
   }
 
-  .search-input{
+  .search-input {
     height: 54px;
     width: 60px;
     border: 0 none;
     display: inline;
   }
 
-  #search-wrapper{
+  #search-wrapper {
     align-items: center;
   }
 
-  .header-search-icon{
+  .header-search-icon {
     background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg);
     display: inline-block;
     width: 20px;
     height: 20px;
   }
 
-  .header-bottom{
+  .header-bottom {
     position: relative;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0 15px 0;
   }
 
-  .header-bottom a{
+  .header-bottom a {
     color: black;
   }
 
-  .header-bottom::before{
+  .header-bottom::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -279,15 +265,15 @@
     border-top: 13px solid rgb(220, 53, 69);
   }
 
-  .page-nav{
+  .page-nav {
     display: flex;
     padding-right: 160px;
-    font-size:19px;
+    font-size: 19px;
     font-weight: bold;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
-  .page-nav li{
+  .page-nav li {
     flex-grow: 1;
     border-left-color: #d9d9d9;
     border-left-width: 1px;
@@ -296,7 +282,7 @@
     align-items: center;
   }
 
-  .trending-topics-wrapper{
+  .trending-topics-wrapper {
     padding-top: 13px;
     padding-bottom: 8px;
     font-size: 16px;
@@ -305,28 +291,18 @@
     border-top-width: 2px;
   }
 
-
-  .trending-topics-wrapper ul{
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
-
-  .trending-topics-wrapper li{
+  .trending-topics-wrapper li {
     padding-right: 25px;
     text-transform: uppercase;
     font-weight: bold;
     flex: none;
   }
 
-  .trending-topics-wrapper a{
+  .trending-topics-wrapper a {
     color: rgb(128, 127, 132);
   }
 
-  .first{
+  .first {
     border-left: 0;
   }
-
 }
-
-
