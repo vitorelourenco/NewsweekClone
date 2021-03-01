@@ -102,7 +102,10 @@
 
   #desktop-container{
     position: relative;
+    max-width: 1320px;
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .header-top{
@@ -117,7 +120,10 @@
     opacity: 1;
     width: 93px;
     margin-right: 0;
+  }
 
+  .header-top date{
+    margin-left: 20px
   }
 
   .header-middle{
@@ -132,6 +138,33 @@
     width: 396px;
     height: 60px;
     margin: 10px auto 0;
+  }
+
+  .search-block-form-2{
+    position: absolute;
+    top: 3px;
+    right: 70px;
+    height: 54px;
+    width: 85px;
+    border: 0 none;
+  }
+
+  .search-input{
+    height: 54px;
+    width: 60px;
+    border: 0 none;
+    display: inline;
+  }
+
+  #search-wrapper{
+    align-items: center;
+  }
+
+  .header-search-icon{
+    background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
   }
 
   .header-bottom{
@@ -149,7 +182,7 @@
     right: 0;
     content: " ";
     display: block;
-    width: 50px;
+    width: 80px;
     border-left: 12px solid white;
     border-top: 13px solid rgb(220, 53, 69);
   }
@@ -159,6 +192,7 @@
     padding-right: 160px;
     font-size:19px;
     font-weight: bold;
+    padding-left: 0px;
   }
 
   .page-nav li{
@@ -195,6 +229,10 @@
 
   .trending-topics-wrapper a{
     color: rgb(128, 127, 132);
+  }
+
+  .first{
+    border-left: 0;
   }
 
 }
