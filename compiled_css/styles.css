@@ -55,8 +55,9 @@
 }
 
 .page-footer {
-  border: 1px solid black;
+  border-top: 1px solid grey;
   margin-top: 15px;
+  padding-top: 20px;
 }
 
 .page-footer li {
@@ -104,6 +105,9 @@
   cursor: pointer;
   
   }
+.footer-links {
+  border-top: 1px solid grey;
+}
 
  
 .footer-links-menu li {
@@ -116,6 +120,31 @@
   margin-right: 10px;
   
 }
+
+
+@media (min-width: 988px) {
+  .page-footer {
+    max-width: 1320px;
+  }
+  .logo {
+    display: flex;
+  }
+  
+  .logo-p{
+    display:flex;
+   
+   }
+
+   .logo-p p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+   }
+  
+
+  }
+
+
 
 
 @media (min-width: 768px) {
