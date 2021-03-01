@@ -54,6 +54,69 @@
   margin-top: 5px;
 }
 
+.page-footer {
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+.page-footer li {
+  margin-left: 10px;
+  list-style: none;
+  
+}
+
+.page-footer ul {
+  padding: 0;
+
+}
+
+.page-footer p{
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 0;
+
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.logo svg {
+  width: 230px;
+  height: 40px;
+  fill: red;
+  }
+
+.genericon {
+    font-size: 24px;
+  }
+
+.footer-links ul{
+    flex-flow: row wrap;
+    margin-bottom: 0px;
+  }
+  
+.footer-links li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+  
+  }
+
+ 
+.footer-links-menu li {
+  margin-left: 0;
+}
+
+
+.footer-links label {
+  margin-top: 6px;
+  margin-right: 10px;
+  
+}
+
 
 @media (min-width: 768px) {
   .login {
