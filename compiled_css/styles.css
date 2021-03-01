@@ -1,3 +1,9 @@
+
+
+.tablet-width{
+  max-width: 1310px;
+}
+
 .space {
   min-height: 65px;
   background: none transparent;
@@ -51,15 +57,88 @@
 
 @media (min-width: 768px) {
   .login {
+    height: 30px;
+    line-height: 30px;
     font-size: 14px;
     color: white;
     background: none;
     margin-right: 28px;
     font-weight: 800;
-  
   }
-  
-  
+
+  .pelcro-subscribe-button{
+    height: 30px;
+    width: 157px;
+    font-size: 18px;
+    align-self: flex-start;
+  }
+
+}
+
+@media (min-width: 988px) {
+  .top-buttom-wrapper{
+    align-items: center;
+    height: 30px;
+  } 
+
+  .jc-sb{
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  #mobile-header{
+    display: none;
+  }
+
+  /* .header-top{
+    position: relative;
+  } */
+
+  #desktop-header{
+    display: block;
+    margin: 0;
+    padding: 0;
+  }  
+
+  #desktop-header ul{
+    list-style: none;
+  }
+
+  #desktop-container{
+    position: relative;
+    width: 100%;
+  }
+
+  .header-top{
+    height: 95px;
+    padding: 20px 10px 15px;
+    color: white;
+  }
+
+  .header-top .login{
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 1;
+    width: 93px;
+    margin-right: 0;
+
+  }
+
+  .header-middle{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px 0;
+  }
+
+  .header-middle svg {
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+  }
+
+
 }
 
 
