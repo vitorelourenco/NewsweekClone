@@ -1,8 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Next Web Home Page
 
-![screenshot](./app_screenshot.png)
 
 
 
