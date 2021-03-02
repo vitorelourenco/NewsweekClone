@@ -1,0 +1,282 @@
+.img-tag {
+  bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 150px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.img-tag a {
+  color: #f72210;
+}
+
+#mobile-header {
+  background: #f72210;
+}
+
+.tablet-width {
+  max-width: 1310px;
+}
+
+.space {
+  min-height: 65px;
+  background: none transparent;
+}
+
+.brand svg {
+  fill: white;
+  width: 132px;
+  height: 20px;
+}
+
+.login {
+  font-size: 0;
+  background: url(https://web.archive.org/web/20210120131834im_/https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
+  width: 30px;
+  height: 30px;
+  padding-left: 0;
+  opacity: 0.75;
+}
+
+.pelcro-subscribe-button {
+  font: bold 13px/24px "Roboto Condensed", sans-serif;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 24px;
+  background-color: yellow;
+}
+
+.container {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.fa-bars {
+  color: white;
+  padding-left: 8px;
+  margin-top: 5px;
+}
+
+.page-footer {
+  border-top: 1px solid grey;
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+.page-footer li {
+  margin-left: 10px;
+}
+
+.page-footer ul {
+  padding: 0;
+}
+
+.page-footer p {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.page-footer a {
+  color: gray;
+}
+
+.logo svg {
+  width: 230px;
+  height: 40px;
+  fill: #f72210;
+}
+
+.genericon {
+  font-size: 24px;
+}
+
+.footer-links ul {
+  flex-flow: row wrap;
+}
+
+.footer-links li {
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.footer-links {
+  border-top: 1px solid grey;
+}
+
+.footer-links strong {
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+@media (min-width: 988px) {
+  .page-footer {
+    max-width: 1320px;
+  }
+
+  .logo-p p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    background: none;
+    margin-right: 28px;
+    font-weight: 800;
+  }
+
+  .pelcro-subscribe-button {
+    height: 30px;
+    width: 157px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 988px) {
+  .top-buttom-wrapper {
+    align-items: center;
+    height: 30px;
+  }
+
+  #mobile-header {
+    background: #f72210;
+    display: none;
+  }
+
+  .trending-topics-wrapper ul {
+    overflow-x: hidden;
+  }
+
+  #desktop-container {
+    position: relative;
+    max-width: 1320px;
+    width: 100%;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header-top {
+    height: 95px;
+    padding: 20px 10px 15px;
+    color: white;
+    background-color: #f72210;
+  }
+
+  .header-top .login {
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 1;
+    width: 93px;
+  }
+
+  .header-top .date {
+    margin-left: 20px;
+  }
+
+  .header-middle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px 0;
+  }
+
+  .header-middle svg {
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+  }
+
+  .search-block-form-2 {
+    position: absolute;
+    top: 3px;
+    right: 70px;
+    height: 54px;
+    width: 85px;
+    border: 0 none;
+  }
+
+  .search-input {
+    height: 54px;
+    width: 60px;
+    border: 0 none;
+  }
+
+  #search-wrapper {
+    align-items: center;
+  }
+
+  .header-search-icon {
+    background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg);
+    width: 20px;
+    height: 20px;
+  }
+
+  .header-bottom {
+    position: relative;
+    padding: 15px 0 15px 0;
+  }
+
+  .header-bottom a {
+    color: black;
+  }
+
+  .header-bottom::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: " ";
+    display: block;
+    width: 80px;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+
+  .page-nav {
+    padding-right: 160px;
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 0;
+  }
+
+  .page-nav li {
+    flex-grow: 1;
+    border-left-color: #d9d9d9;
+    border-left-width: 1px;
+    border-left-style: solid;
+    text-align: center;
+    align-items: center;
+  }
+
+  .trending-topics-wrapper {
+    padding-top: 13px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 16px;
+    border-top: 1px solid #dedede;
+    border-top-width: 2px;
+  }
+
+  .trending-topics-wrapper li {
+    padding-right: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    flex: none;
+  }
+
+  .trending-topics-wrapper a {
+    color: rgb(128, 127, 132);
+  }
+
+  .first {
+    border-left: 0;
+  }
+}
