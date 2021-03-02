@@ -1,5 +1,5 @@
-body{
-  margin:0;
+body {
+  margin: 0;
   padding: 0;
 }
 
@@ -152,6 +152,7 @@ body{
     height: 30px;
     width: 157px;
     font-size: 18px;
+
     /* align-self: flex-start; */
   }
 }
@@ -175,6 +176,7 @@ body{
   .trending-topics-wrapper ul {
     /* display: flex; */
     overflow-x: hidden;
+
     /* overflow-x: scroll;
     overflow-y: hidden; */
   }
