@@ -1,3 +1,12 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+#mobile-header {
+  background: #f72210;
+}
+
 .tablet-width {
   max-width: 1310px;
 }
@@ -77,7 +86,7 @@
 .logo svg {
   width: 230px;
   height: 40px;
-  fill: red;
+  fill: #f72210;
 }
 
 .genericon {
@@ -114,13 +123,13 @@
     max-width: 1320px;
   }
 
-  .logo {
+  /* .logo {
     display: flex;
   }
 
   .logo-p {
     display: flex;
-  }
+  } */
 
   .logo-p p {
     padding-top: 20px;
@@ -143,7 +152,7 @@
     height: 30px;
     width: 157px;
     font-size: 18px;
-    align-self: flex-start;
+    /* align-self: flex-start; */
   }
 }
 
@@ -153,19 +162,21 @@
     height: 30px;
   }
 
-  .jc-sb {
+  /* .jc-sb {
     justify-content: space-between;
     align-items: flex-end;
-  }
+  } */
 
   #mobile-header {
+    background: #f72210;
     display: none;
   }
 
   .trending-topics-wrapper ul {
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    /* display: flex; */
+    overflow-x: hidden;
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
   }
 
   #desktop-header {
@@ -182,6 +193,7 @@
     position: relative;
     max-width: 1320px;
     width: 100%;
+    padding-top: 0;
     padding-left: 0;
     padding-right: 0;
   }
@@ -190,6 +202,7 @@
     height: 95px;
     padding: 20px 10px 15px;
     color: white;
+    background-color: #f72210;
   }
 
   .header-top .login {
@@ -262,11 +275,11 @@
     display: block;
     width: 80px;
     border-left: 12px solid white;
-    border-top: 13px solid rgb(220, 53, 69);
+    border-top: 13px solid #f72210;
   }
 
   .page-nav {
-    display: flex;
+    /* display: flex; */
     padding-right: 160px;
     font-size: 19px;
     font-weight: bold;
