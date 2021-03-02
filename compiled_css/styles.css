@@ -1,9 +1,13 @@
-body{
+body {
   background-color: #f4f5f6;
 }
 
-.main{
+.main {
   max-width: 1310px;
+}
+
+.colorblack {
+  color: black;
 }
 
 .img-tag {
