@@ -4,8 +4,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-> This is a clone of The Net Work Website webpage using HTML & CSS: https://perma.cc/M5ZV-Q2D6 . The goal of 
-> To achieve this, the project makes use of HTML5 and CSS3 and focuses on the web responsivity aspects of the project, making use of media queries to achieve this.
+
 
 ## Built With
 
@@ -15,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://vitorelourenco.github.io/TheNextWebClone/ )
+[Live Demo Link]( https://vitorelourenco.github.io/NewsweekClone/ )
 
 
 ### Deployment
@@ -47,7 +46,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page]( https://github.com/vitorelourenco/NewsweekClone/issues ).
 
 ## Show your support
 
@@ -55,7 +54,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- The Next Web ( https://thenextweb.com/ )
 - Microverse ( https://www.microverse.org/ )
 
 ## 📝 License
