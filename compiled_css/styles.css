@@ -1,3 +1,17 @@
+.img-tag {
+  bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 150px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.img-tag a {
+  color: #f72210;
+}
+
+
 #mobile-header {
   background: #f72210;
 }
