@@ -15,6 +15,15 @@ body{
   font-weight: 700;
 }
 
+.img-tag2 {
+  bottom: 0;
+  background-color: #c2d4d7;
+  width: 50px;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .article-link{
   color: black;
 }
@@ -22,6 +31,11 @@ body{
 .img-tag a {
   color: #f72210;
 }
+
+.img-tag2 a {
+  color: black;
+}
+
 
 .card-body {
   padding: 0;
