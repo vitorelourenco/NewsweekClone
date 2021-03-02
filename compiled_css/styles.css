@@ -11,6 +11,10 @@
   color: #f72210;
 }
 
+.card-body {
+  padding: 0;
+}
+
 #mobile-header {
   background: #f72210;
 }
