@@ -20,7 +20,7 @@ body {
   line-height: 30px;
 }
 
-.tablet-right-ads{
+.tablet-right-ads {
   max-width: 300px;
 }
 
@@ -51,7 +51,7 @@ body {
   font-weight: 700;
 }
 
-.article-link{
+.article-link {
   color: black;
 }
 
@@ -62,7 +62,6 @@ body {
 .img-tag2 a {
   color: black;
 }
-
 
 .card-body {
   padding: 0;
