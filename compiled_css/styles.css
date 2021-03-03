@@ -28,6 +28,15 @@ body {
   font-weight: 700;
 }
 
+.img-tag-sponsored {
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 230px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .article-link{
   color: black;
 }
