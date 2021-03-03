@@ -9,6 +9,10 @@ body {
   clear: both;
 }
 
+.bottom-sign-up {
+  height: 38px;
+}
+
 .main {
   max-width: 1310px;
 }
