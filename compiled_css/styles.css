@@ -10,6 +10,16 @@ body {
   color: black;
 }
 
+.p-vs {
+  background: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+}
+
 .img-tag {
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.9);
@@ -86,7 +96,11 @@ body {
   font-size: 12px;
   width: 43px;
   height: 30px;
-  background-color: black;
+  background-color: #f72210;
+}
+
+.free-sign-up {
+  background-color: #f72210;
 }
 
 .pelcro-subscribe-button {
