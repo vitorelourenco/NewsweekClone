@@ -82,6 +82,13 @@ body {
   opacity: 0.75;
 }
 
+.free-sign {
+  font-size: 12px;
+  width: 43px;
+  height: 30px;
+  background-color: black;
+}
+
 .pelcro-subscribe-button {
   font: bold 13px/24px "Roboto Condensed", sans-serif;
   padding-left: 12px;
