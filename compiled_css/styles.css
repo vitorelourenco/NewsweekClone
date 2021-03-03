@@ -10,6 +10,35 @@ body {
   color: black;
 }
 
+.bottom-bg-image {
+  padding-top: 100%; 
+  background-size: cover; 
+  background-position-x: 50%
+}
+
+.bottom-white-text {
+  color: white;
+  background-color: rgb(247, 34, 16);
+}
+
+.colororange {
+  color: rgb(247, 34, 16);
+}
+
+.bottom-news-icon{
+  width:29px;
+  height:29px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.bottom-img-tag{
+  left: 0;
+  bottom:0px;
+  height: 30px;
+  width: 180px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .p-vs {
   background: black;
   height: 30px;
