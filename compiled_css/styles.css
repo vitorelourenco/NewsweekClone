@@ -229,7 +229,6 @@ body {
 
 .page-footer {
   border-top: 1px solid grey;
-  margin-top: 15px;
   padding-top: 20px;
 }
 
@@ -337,7 +336,7 @@ body {
 
 @media (min-width: 988px) {
   .page-footer {
-    max-width: 1320px;
+    max-width: 1310px;
   }
 
   .logo-p p {
@@ -363,7 +362,7 @@ body {
 
   #desktop-container {
     position: relative;
-    max-width: 1320px;
+    max-width: 1310px;
     width: 100%;
     padding-top: 0;
     padding-left: 0;

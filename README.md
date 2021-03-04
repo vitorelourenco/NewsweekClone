@@ -36,7 +36,7 @@ To achieve this, the project makes use of HTML5, Bootstrap and CSS3. This projec
 
 ### Deployment
 
--You can deploy this project cloning it on GitHub and then going to:
+-You can deploy this project forking it on GitHub and then going to:
 ->Repository
 ->Settings
 ->GitHub Pages
