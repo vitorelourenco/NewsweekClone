@@ -26,6 +26,26 @@ body {
   left: calc(50% - 140px);
 }
 
+.btn-subscribe {
+  width:150px
+}
+
+.background-img {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711584/tiger-wild-animal-sanctuary-colorado.jpg?w=95&h=95&f=b75680cc8b5188b7ba05594030e1cd62);
+}
+
+.background-img2 {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711582/kwame-kiplatrick-trial.jpg?w=95&h=95&f=41b98272f973961e56ee70c4b44f15b6);
+}
+
+.background-img3 {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711565/k-9-officer-arlo.jpg?w=95&h=95&f=c741fdf61f4e450344c11c802bf4381f);
+}
+
+.cover-img {
+  background-image:url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.jpg?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29);
+}
+
 .img-two-position {
   top: 52px;
   left: calc(50% - 45px);
