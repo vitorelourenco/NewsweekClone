@@ -13,6 +13,24 @@ body {
   height: 38px;
 }
 
+.content-box{
+  box-sizing: content-box;
+}
+
+.phone-img-small {
+  height: 200px;
+}
+
+
+
+.sign-up-img {
+  background-image: url(https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+
 .main {
   max-width: 1310px;
 }
@@ -244,6 +262,14 @@ body {
     height: 30px;
     width: 157px;
     font-size: 18px;
+  }
+
+  .sign-up-img{
+    background-position-y: 0;
+  }
+
+  .phone-img-small {
+    height: auto;
   }
 }
 
