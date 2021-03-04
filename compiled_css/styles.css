@@ -21,6 +21,14 @@ body {
   height: 200px;
 }
 
+.img-position {
+  top: 12px;
+  left: 95px;
+}
+
+.img-subs {
+  padding-right: 90px;
+}
 
 
 .sign-up-img {
