@@ -21,9 +21,26 @@ body {
   height: 200px;
 }
 
-.img-position {
-  top: 12px;
-  left: 95px;
+.img-one-position{
+  top: 40px;
+  left: calc(50% - 140px);
+}
+
+.img-two-position {
+  top: 52px;
+  left: calc(50% - 45px);
+}
+
+.text-subscribe-bottom {
+  margin: 0 50px;
+}
+
+.img-bottom-container {
+  height: 200px;
+}
+
+.text-div-bottom{
+  height: 400px;
 }
 
 .img-subs {
@@ -251,9 +268,28 @@ body {
 }
 
 @media (min-width: 768px) {
+
+  .img-one-position{
+    top: 40px;
+    left: 40px;
+  }
+  
+  .img-two-position {
+    top: 52px;
+    left: 135px;
+  }
+
+  .text-subscribe-bottom {
+    margin-left: 160px;
+  }
+
   .bottom-side-image{
     width: 110px;
     height: 110px;
+  }
+
+  .text-div-bottom{
+    height: 300px;
   }
 
   .login {
