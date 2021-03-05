@@ -3,7 +3,7 @@ body {
 }
 
 .bg-color-subscribe {
-  background-color: #f4f5f6
+  background-color: #f4f5f6;
 }
 
 .bottom-side-image {
@@ -31,7 +31,7 @@ body {
 }
 
 .btn-subscribe {
-  width:150px
+  width: 150px;
 }
 
 .background-img {
@@ -47,7 +47,7 @@ body {
 }
 
 .cover-img {
-  background-image:url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.jpg?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29);
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.jpg?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29);
 }
 
 .img-two-position {
