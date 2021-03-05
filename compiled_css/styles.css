@@ -2,6 +2,10 @@ body {
   background-color: #f4f5f6;
 }
 
+.phone-row {
+  height: calc(100% - 35px);
+}
+
 .bg-color-subscribe {
   background-color: #f4f5f6;
 }
