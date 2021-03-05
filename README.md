@@ -29,6 +29,7 @@ To achieve this, the project makes use of HTML5, Bootstrap and CSS3. This projec
 ### Setup
 
 -Download all the files to the same folder and run index.html
+-To clone this repo run this code on a terminal window git clone https://github.com/vitorelourenco/NewsweekClone.git
 
 ### Install
 
