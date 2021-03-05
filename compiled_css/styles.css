@@ -2,12 +2,123 @@ body {
   background-color: #f4f5f6;
 }
 
+.phone-row {
+  height: calc(100% - 35px);
+}
+
+.bg-color-subscribe {
+  background-color: #f4f5f6af;
+}
+
+.bottom-side-image {
+  width: 110px;
+  height: 110px;
+  background-size: cover;
+  clear: both;
+}
+
+.bottom-sign-up {
+  height: 38px;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.phone-img-small {
+  height: 200px;
+}
+
+.img-one-position {
+  top: 40px;
+  left: calc(50% - 140px);
+}
+
+.btn-subscribe {
+  width: 150px;
+}
+
+.background-img {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711584/tiger-wild-animal-sanctuary-colorado.jpg?w=95&h=95&f=b75680cc8b5188b7ba05594030e1cd62);
+}
+
+.background-img2 {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711582/kwame-kiplatrick-trial.jpg?w=95&h=95&f=41b98272f973961e56ee70c4b44f15b6);
+}
+
+.background-img3 {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711565/k-9-officer-arlo.jpg?w=95&h=95&f=c741fdf61f4e450344c11c802bf4381f);
+}
+
+.cover-img {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.jpg?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29);
+}
+
+.img-two-position {
+  top: 52px;
+  left: calc(50% - 45px);
+}
+
+.text-subscribe-bottom {
+  margin-left: 15px;
+}
+
+.img-bottom-container {
+  height: 200px;
+}
+
+.text-div-bottom {
+  height: 300px;
+}
+
+.img-subs {
+  padding-right: 90px;
+}
+
+.sign-up-img {
+  background-image: url(https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+
 .main {
   max-width: 1310px;
 }
 
 .colorblack {
   color: black;
+}
+
+.bottom-bg-image {
+  padding-top: 100%;
+  background-size: cover;
+  background-position-x: 50%;
+  margin-bottom: 10px;
+}
+
+.bottom-white-text {
+  color: white;
+  background-color: rgb(247, 34, 16);
+}
+
+.colororange {
+  color: rgb(247, 34, 16);
+}
+
+.bottom-news-icon {
+  width: 29px;
+  height: 29px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.bottom-img-tag {
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 160px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .p-vs {
@@ -127,7 +238,6 @@ body {
 
 .page-footer {
   border-top: 1px solid grey;
-  margin-top: 15px;
   padding-top: 20px;
 }
 
@@ -177,18 +287,37 @@ body {
   margin-right: 10px;
 }
 
-@media (min-width: 988px) {
-  .page-footer {
-    max-width: 1320px;
-  }
-
-  .logo-p p {
-    padding-top: 20px;
-    padding-bottom: 10px;
+@media (min-width: 470px) {
+  .bottom-side-image {
+    width: 258px;
+    height: 258px;
   }
 }
 
 @media (min-width: 768px) {
+  .img-one-position {
+    top: 40px;
+    left: 40px;
+  }
+
+  .img-two-position {
+    top: 52px;
+    left: 135px;
+  }
+
+  .text-subscribe-bottom {
+    margin-left: 170px;
+  }
+
+  .bottom-side-image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .text-div-bottom {
+    height: 350px;
+  }
+
   .login {
     height: 30px;
     line-height: 30px;
@@ -203,6 +332,25 @@ body {
     height: 30px;
     width: 157px;
     font-size: 18px;
+  }
+
+  .sign-up-img {
+    background-position-y: 0;
+  }
+
+  .phone-img-small {
+    height: auto;
+  }
+}
+
+@media (min-width: 988px) {
+  .page-footer {
+    max-width: 1310px;
+  }
+
+  .logo-p p {
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 }
 
@@ -223,7 +371,7 @@ body {
 
   #desktop-container {
     position: relative;
-    max-width: 1320px;
+    max-width: 1310px;
     width: 100%;
     padding-top: 0;
     padding-left: 0;
