@@ -204,6 +204,13 @@ body {
   height: 30px;
   padding-left: 0;
   opacity: 0.75;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  transition-delay: 0.5s;
+}
+
+.login:hover {
+  background-color: #7c0707;
+  width: 400px;
 }
 
 .free-sign {
