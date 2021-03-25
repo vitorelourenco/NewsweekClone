@@ -2,6 +2,11 @@ body {
   background-color: #f4f5f6;
 }
 
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .phone-row {
   height: calc(100% - 35px);
 }
@@ -398,10 +403,13 @@ body {
 
   .header-middle {
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-    padding: 20px 0;
+    top: 10px;
+    left: calc(50% - 250px);
+    background-color: #f72210;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
   }
 
   .header-middle svg {
